@@ -39,9 +39,5 @@ License
 
 CC BY 4.0
 
-Author
-
-Eric D. Martin
-
-Manuscript: 
-Website: https://ericdmartin.com
+Author / Citation
+Martin, E. D. (2025). N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation. https://doi.org/10.5281/zenodo.17172695
