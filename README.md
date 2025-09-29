@@ -1,43 +1,68 @@
-# N/U Algebra
+# The NASA Paper & Small Falcon Algebra
 
-**A Conservative Linear Algebra for Uncertainty Propagation**
+This project began as part of exploratory research at NASA and has since grown into a broader framework for conservative uncertainty quantification.  
+The methods presented here build directly on those early efforts, now formalized as **N/U Algebra**.  
 
-This repository provides open, reproducible code for N/U Algebra, as described in the manuscript:
+**Citation**:  
+Martin, E. D. (2025). *The NASA Paper & Small Falcon Algebra.* Zenodo. [https://doi.org/10.5281/zenodo.17222201](https://doi.org/10.5281/zenodo.17222201)
 
-> Martin, E. D. (2025). N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation. https://doi.org/10.5281/zenodo.17172695
+---
 
-- **nu_algebra.py:** Python implementation of N/U Algebra (Nominal/Uncertainty Algebra)
-- **nu_algebra.R:** R implementation of N/U Algebra
+# N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation
 
-## Description
+This repository contains the reference implementations of N/U Algebra, a framework for conservative and reproducible uncertainty propagation.  
 
-N/U Algebra is a conservative, transparent framework for uncertainty propagation. All quantities are represented as ordered pairs (n, u) of nominal value and explicit uncertainty. The algebra supports addition, multiplication, and scalar multiplication, guaranteeing reproducibility and monotonicity.
+**Citation**:  
+Martin, E. D. (2025). *N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation.* Zenodo. [https://doi.org/10.5281/zenodo.17172695](https://doi.org/10.5281/zenodo.17172695)
 
-See the full paper  https://doi.org/10.5281/zenodo.17172695  for theory, proofs, and example applications.
+---
+
+## Overview
+
+N/U Algebra represents every value as an ordered pair **(n, u)** of nominal value and explicit uncertainty. The algebra defines addition, multiplication, and scalar multiplication with rules that guarantee:
+
+- **Conservatism**: propagated uncertainties are never underestimated.  
+- **Transparency**: operations are explicit and auditable.  
+- **Reproducibility**: results are deterministic given inputs.  
+
+The full theoretical development, proofs, and validation results are provided in the published manuscript (see DOI above).  
+
+---
+
+## Contents
+
+- `nu_algebra.py` — Python implementation of N/U Algebra  
+- `nu_algebra.R` — R implementation of N/U Algebra  
+- `generate_nu_data.py` — script to reproduce the numerical validation dataset  
+
+---
 
 ## Usage
 
+**Python example:**
 ```python
-
-# Python example
 from nu_algebra import NU
 
 x = NU(10, 1)
 y = NU(5, 0.5)
+
 print("x + y =", x.add(y))
 print("x * y =", x.mul(y))
 print("2 * x =", x.scalar(2))
 
-# R example
+
+
+
+R Example
 source("nu_algebra.R")
+
 x <- c(10, 1)
 y <- c(5, 0.5)
+
 cat("x + y =", NU_add(x, y), "\n")
 cat("x * y =", NU_mul(x, y), "\n")
 cat("2 * x =", NU_scalar(2, x), "\n")
-License
 
-CC BY 4.0
 
-Author / Citation
-Martin, E. D. (2025). N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation. https://doi.org/10.5281/zenodo.17172695
+Do you want me to also add a **“Related Work” section** at the bottom that cross-links the two Zenodo entries, so visitors immediately see that *NASA/Small Falcon* is the origin and *N/U Algebra* is the formalized continuation?
+
