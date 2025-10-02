@@ -4,7 +4,7 @@ This project began as part of exploratory research at NASA and has since grown i
 The methods presented here build directly on those early efforts, now formalized as **N/U Algebra**.  
 
 **Citation**:  
-Martin, E. D. (2025). *The NASA Paper & Small Falcon Algebra.* Zenodo. [https://doi.org/10.5281/zenodo.17222201](https://doi.org/10.5281/zenodo.17222201)
+Martin, E. D. (2025). *The NASA Paper & Small Falcon Algebra.* Zenodo. https://doi.org/10.5281/zenodo.17172694
 
 ---
 
@@ -13,7 +13,7 @@ Martin, E. D. (2025). *The NASA Paper & Small Falcon Algebra.* Zenodo. [https://
 This repository contains the reference implementations of N/U Algebra, a framework for conservative and reproducible uncertainty propagation.  
 
 **Citation**:  
-Martin, E. D. (2025). *N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation.* Zenodo. [https://doi.org/10.5281/zenodo.17172695](https://doi.org/10.5281/zenodo.17172695)
+Martin, E. D. (2025). *N/U Algebra: A Conservative Linear Approach to Uncertainty Propagation.* Zenodo.  https://doi.org/10.5281/zenodo.17172694
 
 ---
 
