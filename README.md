@@ -63,6 +63,3 @@ cat("x + y =", NU_add(x, y), "\n")
 cat("x * y =", NU_mul(x, y), "\n")
 cat("2 * x =", NU_scalar(2, x), "\n")
 
-
-Do you want me to also add a **“Related Work” section** at the bottom that cross-links the two Zenodo entries, so visitors immediately see that *NASA/Small Falcon* is the origin and *N/U Algebra* is the formalized continuation?
-
