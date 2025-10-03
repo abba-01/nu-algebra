@@ -1,6 +1,6 @@
 # The NASA Paper & Small Falcon Algebra
 
-This project began as part of exploratory research at NASA and has since grown into a broader framework for conservative uncertainty quantification.  
+This project began as part of discovering 0 and has since grown into a broader framework for conservative uncertainty quantification.  
 The methods presented here build directly on those early efforts, now formalized as **N/U Algebra**.  
 
 **Citation**:  
