@@ -276,12 +276,4 @@ For questions, issues, or collaboration:
 
 ---
 
-## 🙏 Acknowledgments
-
-> *George and Nancy Proudman taught me what a zero is.*
-
-> *To the Math Department at Washington State University, Vancouver—your honest feedback shaped this work into something rigorous and reliable.*
-
----
-
-**Built on the principle**: *Never claim more certainty than your measurements support.*
+**Built on the principle**: *Never claim more certainty than your measurements support.* More. Or Less.
