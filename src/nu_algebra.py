@@ -5,7 +5,7 @@ This module implements the N/U (Nominal/Uncertainty) Algebra framework
 for propagating explicit uncertainty bounds alongside nominal values.
 
 Reference:
-Martin, E.D. (2025). The NASA Paper & Small Falcon Algebra.
+Martin, Eric D. (2025). The NASA Paper & Small Falcon Algebra.
 DOI: 10.5281/zenodo.17172694
 """
 
