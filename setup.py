@@ -1,15 +1,15 @@
-```python
+ic.```python
 from setuptools import setup, find_packages
 
 setup(
     name="nu-algebra",
     version="1.0.0",
     author="Eric D. Martin",
-    author_email="your.email@example.com",
+    author_email="eric.martin1@wsu.edu",
     description="Conservative uncertainty propagation with N/U Algebra",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/nu-algebra",
+    url="https://github.com/abba-01/nualgebra",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
@@ -28,3 +28,4 @@ setup(
         "pandas>=1.3.0",
     ],
 )
+
