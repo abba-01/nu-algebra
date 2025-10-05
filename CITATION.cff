@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Martin"
+    given-names: "Eric D."
+    orcid: "https://orcid.org/0009-0006-5944-1742"
+title: "The NASA Paper & Small Falcon Algebra: N/U Algebra Implementation"
+version: 1.0.0
+doi: 10.5281/zenodo.17172694
+date-released: 2025-01-01
+url: "https://github.com/abba-01/nualgebra"
+license: CC-BY-4.0
+repository-code: "https://github.com/abba-01/nualgebra"
+keywords:
+  - uncertainty quantification
+  - conservative bounds
+  - interval arithmetic
+  - error propagation
+  - all your baseline
