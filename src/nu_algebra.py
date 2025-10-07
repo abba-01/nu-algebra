@@ -390,6 +390,6 @@ def NU_scalar(a: float, x: NU) -> NU:
 
 # ==================== Version Info ====================
 
-__version__ = "1.0.0"
+__version__ = "3.1.0"
 __author__ = "Eric D. Martin"
 __license__ = "CC BY 4.0"
