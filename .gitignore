@@ -17,9 +17,11 @@ build/
 
 # Data
 *.csv
-*.json
 data/*.csv
 data/*.json
+
+# Allow SAID policy files
+!SAID/*.json
 
 # IDE
 .vscode/
