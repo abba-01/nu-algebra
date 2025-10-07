@@ -1,0 +1,18 @@
+# Include documentation and license
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CITATION.cff
+
+# Include examples and tests
+recursive-include examples *.py *.md
+recursive-include tests *.py
+
+# Exclude SAID directory from source distributions
+# SAID contains AI collaboration policies and should not be distributed
+prune SAID
+
+# Exclude development and build artifacts
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
