@@ -25,4 +25,23 @@ This framework documents how AI was used in this research, with explicit guardra
 
 ---
 
+## Master Repository & Auto-Sync
+
+This SAID directory is **automatically synchronized** from the master repository:
+
+🏠 **Master**: [abba-01/abba/SAID](https://github.com/abba-01/abba/tree/main/SAID)
+
+**How it works**:
+- ✅ Changes to SAID in abba repo trigger automatic sync to all repositories
+- ✅ Git post-commit hook runs `sync_said_to_all_repos.sh`
+- ✅ All repos stay synchronized with a single source of truth
+
+**Manual sync** (if needed):
+```bash
+cd /run/media/root/OP01/got/abba
+./SAID/sync_said_to_all_repos.sh
+```
+
+---
+
 For complete details, see [Scientific_Academic_Integrity_Disclosure.md](Scientific_Academic_Integrity_Disclosure.md)
