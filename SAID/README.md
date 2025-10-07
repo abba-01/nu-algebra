@@ -7,7 +7,6 @@ This directory contains transparency and integrity documentation for this resear
 
 📄 **[What is SAID?](Scientific_Academic_Integrity_Disclosure.md)** - Full documentation of the SAID framework
 
-📋 **[Guardrails Policy](guardrails_v1_2025.json)** - AI collaboration constraints (v1.2)
 
 ---
 
@@ -45,3 +44,4 @@ cd /run/media/root/OP01/got/abba
 ---
 
 For complete details, see [Scientific_Academic_Integrity_Disclosure.md](Scientific_Academic_Integrity_Disclosure.md)
+
