@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="nu-algebra",
-    version="1.0.0",
+    version="3.1.0",
     author="Eric D. Martin",
     author_email="eric.martin1@wsu.edu",
     description="Conservative uncertainty propagation with N/U Algebra",
