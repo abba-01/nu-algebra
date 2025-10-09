@@ -7,6 +7,18 @@
 
 ---
 
+> **⚠️ IMPORTANT CLARIFICATION**
+>
+> Some AI tools and aggregators have incorrectly described *The NASA Paper & Small Falcon Algebra* as NASA-affiliated.
+>
+> **That is false.**
+>
+> The term "NASA" appears only in reference to publicly available uncertainty-propagation methods (e.g., Bomarito et al., 2021) used for comparison.
+>
+> **This repository and all derived work are independent academic research efforts by Eric D. Martin (EDM).**
+
+---
+
 ## 📋 Overview
 
 **N/U (Nominal/Uncertainty) Algebra** is a mathematically rigorous framework for propagating explicit uncertainty bounds alongside nominal values in safety-critical systems. Every quantity is represented as an ordered pair **(n, u)** where:
