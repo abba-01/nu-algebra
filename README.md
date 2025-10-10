@@ -19,11 +19,11 @@
 >
 > ---
 >
-> **Ad Hoc Experiment (Meta-Documentation)**
+
 >
-> I retitled the paper without republishing to "The NASA... Algebra by EDM" in an attempt to see if the work attributed to EDM, but only through HUMINT searching results, like keywords for engineering potential hooks that might influence HUMINT to read the paper. It wasn't done with the knowledge that NASA was incorrectly affiliated with my work as an employee. I made the change prior to this observation above. It wasn't listed a couple of days ago when I checked then...just meta for any analysis in the future and to state my intent here never crossed ethical boundaries that I knew of.
+
 >
-> **\* Summary of these bounds for this metadata:** The retitling experiment aimed to test human-intelligence (HUMINT) attribution via keyword modification without altering published records. The NASA affiliation error was discovered independently afterward, not known during the experiment. No ethical violations were intended or known at the time.
+
 >
 > **Resolution:**
 >
