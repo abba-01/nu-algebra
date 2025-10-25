@@ -1,0 +1,54 @@
+{
+  "title": "The NASA Paper & Small Falcon Algebra: N/U Algebra Implementation",
+  "upload_type": "software",
+  "description": "N/U (Nominal/Uncertainty) Algebra is a mathematically rigorous framework for propagating explicit uncertainty bounds alongside nominal values in safety-critical systems. Features conservative bounds (validated across 70,000+ test cases), O(1) computational complexity, deterministic behavior without distributional assumptions, and formal mathematical proofs of closure, associativity, and monotonicity. Suitable for aerospace engineering, metrology, psychological science, regulatory compliance, and real-time systems requiring audit-defensible uncertainty tracking.",
+  "creators": [
+    {
+      "name": "Martin, Eric D.",
+      "orcid": "0009-0006-5944-1742",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "uncertainty-quantification",
+    "conservative-bounds",
+    "interval-arithmetic",
+    "error-propagation",
+    "nu-algebra",
+    "nominal-uncertainty",
+    "safety-critical-systems",
+    "measurement-uncertainty",
+    "aerospace-engineering",
+    "metrology",
+    "reproducible-science",
+    "audit-trail"
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "related_identifiers": [
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "10.5281/zenodo.17221863",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://github.com/abba-01/nu-algebra",
+      "resource_type": "software"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Martin, Eric D.",
+      "type": "Researcher",
+      "orcid": "0009-0006-5944-1742"
+    }
+  ],
+  "references": [
+    "JCGM 100:2008 - Guide to the Expression of Uncertainty in Measurement (GUM)",
+    "IEEE 1788-2015 - Standard for Interval Arithmetic",
+    "Bomarito et al. (2021) - NASA Uncertainty Propagation Methods"
+  ],
+  "version": "3.1.0"
+}
