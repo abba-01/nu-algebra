@@ -34,7 +34,7 @@
     },
     {
       "relation": "isSupplementedBy",
-      "identifier": "https://github.com/abba-01/nu-algebra",
+      "identifier": "https://github.com/aybllc/nu-algebra",
       "resource_type": "software"
     }
   ],

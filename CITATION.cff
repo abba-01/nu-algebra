@@ -8,9 +8,9 @@ title: "The NASA Paper & Small Falcon Algebra: N/U Algebra Implementation"
 version: 3.1.0
 doi: 10.5281/zenodo.17172694
 date-released: 2025-10-06
-url: "https://github.com/abba-01/nualgebra"
+url: "https://github.com/aybllc/nu-algebra"
 license: CC-BY-4.0
-repository-code: "https://github.com/abba-01/nualgebra"
+repository-code: "https://github.com/aybllc/nu-algebra"
 keywords:
   - uncertainty quantification
   - conservative bounds
